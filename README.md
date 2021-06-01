@@ -1,2 +1,2 @@
-# Web-Services-Agency
-Agency Website
+# Web-Service-Agency
+HTML and CSS Agency Website
