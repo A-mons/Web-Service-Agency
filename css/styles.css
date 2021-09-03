@@ -2,7 +2,7 @@
 
 
 :root {
-    --primary-color: steelblue;
+    --primary-color: rgb(147, 172, 207);
 }
 
 /*Base Style*/
@@ -34,6 +34,7 @@ p{
     font-size: 2rem;
     font-weight: 700;
     z-index: 20;
+    color: rgb(100, 135, 184);
 } 
 
 section{
@@ -41,6 +42,12 @@ section{
     height: 100vh;
     align-items: center;
     padding: 100px;
+    flex-direction: column;
+    margin-top: 60px;
+}
+section.home{
+    flex-direction: row;
+    margin-top: 0px;
 }
 
 /*Navigation*/
@@ -146,7 +153,25 @@ section{
     transform: scale(0.98);
 }
 
+/* Services */
+.services{
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    text-align: center;
+}
 
+.services .service {
+    padding: 30px;
+    background:rgb(247, 249, 252)
+}
+.services .service:hover {
+    box-shadow: 0px 10px 30px  rgba(0, 0, 0, 0.1);
+}
+.services .service .icon img{
+    max-width: 100px;
+}
 /*Home Page*/
 
 .home-img  {
