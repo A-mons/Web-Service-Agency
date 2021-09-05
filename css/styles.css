@@ -153,7 +153,7 @@ section.home{
     transform: scale(0.98);
 }
 
-/* Services */
+/* Services Page */
 .services{
     display: grid;
     margin-top: 40px;
@@ -166,12 +166,68 @@ section.home{
     padding: 30px;
     background:rgb(247, 249, 252)
 }
+
+.services .service h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #6e74c5;
+}
 .services .service:hover {
     box-shadow: 0px 10px 30px  rgba(0, 0, 0, 0.1);
 }
+
 .services .service .icon img{
     max-width: 100px;
 }
+
+/* Work Page*/
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.work .item {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 6px;
+}
+
+.work .item img {
+    width: 100%;
+    height: 100%;
+}
+
+.work .item .action {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.work .item .action a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px #fff solid;
+    padding: 5px 15px;
+}
+
+.work .item:hover .action {
+    opacity: 1;
+}
+
 /*Home Page*/
 
 .home-img  {
@@ -187,19 +243,33 @@ section.home{
     max-width: 600px;
     }
 
-    @media(max-width:1068px){
-        .home-img{
-            display: none;
-        }
-        .logo{
-            top: 10px;
-            left: 40px;
-            font-size: 1.5rem;
-        }
-        section{
-            padding: 100px 40px;
-        }
-        .navigation ul li a {
-            font-size: 2rem;
-        }
+@media(max-width:1068px){
+    .home-img{
+        display: none;
     }
+    .logo{
+        top: 10px;
+        left: 40px;
+        font-size: 1.5rem;
+    }
+    section{
+        padding: 100px 40px;
+    }
+    .navigation ul li a {
+        font-size: 2rem;
+    }
+    .services{
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+}
+
+@media(max-width:768px){
+    .services{
+        grid-template-columns: 1fr;
+            
+    }
+    .services .service {
+        box-shadow: 0px 10px 30px  rgba(0, 0, 0, 0.1);
+    }
+}
