@@ -1,66 +1,66 @@
 # Web Service Agency Landing Page
 
-Landing Page moderne et élégante pour une agence de services web, présentant ses services, réalisations et coordonnées.
+A modern and elegant landing page for a web service agency, showcasing services, portfolio projects, and contact information.
 
-## 🌟 Fonctionnalités
+## ✨ Features
 
-- **Design responsive** - S'adapte à tous les appareils
-- **Navigation fluide** - Menu latéral avec animation
-- **Section héros** - Présentation avec image d'arrière-plan
-- **Section services** - Mise en valeur des compétences
-- **Page réalisations** - Galerie de projets avec effets au survol
-- **Page contact** - Formulaire de contact complet avec coordonnées
+- **Responsive Design** - Adapts to all devices
+- **Smooth Navigation** - Sliding menu with animations
+- **Hero Section** - Eye-catching presentation with background image
+- **Services Section** - Highlights agency competencies
+- **Portfolio Page** - Project gallery with hover effects
+- **Contact Page** - Complete contact form with company details
 
-## 📄 Pages du site
+## 📄 Website Pages
 
-- **index.html** - Page d'accueil avec présentation de l'agence
-- **services.html** - Présentation détaillée des services offerts
-- **work.html** - Galerie des projets réalisés
-- **contact.html** - Formulaire de contact et informations de l'agence
+- **index.html** - Homepage with agency presentation
+- **services.html** - Detailed services offered
+- **work.html** - Gallery of completed projects
+- **contact.html** - Contact form and company information
 
-## 🛠️ Technologies utilisées
+## 🛠️ Technologies Used
 
 - HTML5
-- CSS3 (Flexbox, Grid, Variables CSS)
+- CSS3 (Flexbox, Grid, CSS Variables)
 - JavaScript (ES6)
 
-## 🚀 Installation et utilisation
+## 🚀 Installation & Usage
 
-1. Téléchargez ou clonez ce projet
-2. Ouvrez le fichier `index.html` dans votre navigateur
-3. Naviguez entre les différentes pages via le menu de navigation
+1. Download or clone this project
+2. Open the `index.html` file in your browser
+3. Navigate between pages using the navigation menu
 
-## 📱 Responsive design
+## 📱 Responsive Design
 
-Le site est entièrement responsive et s'adapte à:
-- Ordinateurs de bureau
-- Tablettes
-- Téléphones mobiles
+The website is fully responsive and adapts to:
+- Desktop computers
+- Tablets
+- Mobile phones
 
-Les points de rupture (breakpoints) sont:
-- 1068px pour les tablettes
-- 768px pour les mobiles
+Breakpoints:
+- 1068px for tablets
+- 768px for mobile devices
 
-## 🎨 Personnalisation
+## 🎨 Customization
 
-Pour personnaliser le site:
-1. Modifiez les couleurs dans `:root` dans le fichier CSS
-2. Remplacez les images dans le dossier `images/`
-3. Adaptez le contenu texte dans les fichiers HTML
-4. Personnalisez les services dans `services.html`
-5. Ajoutez vos propres projets dans `work.html`
+To personalize the website:
+1. Modify colors in `:root` in the CSS file
+2. Replace images in the `images/` folder
+3. Adapt text content in HTML files
+4. Customize services in `services.html`
+5. Add your own projects in `work.html`
 
 ## 📧 Contact
 
-La page contact comprend:
-- Formulaire avec champs pour nom, prénom, email et sujet
-- Zone de message
-- Informations de contact alternatives (adresse, email, téléphone)
+The contact page includes:
+- Form with fields for name, email, and subject
+- Message textarea
+- Alternative contact information (address, email, phone)
 
-## 📄 Licence
+## 📄 License
 
-Ce projet est open source.
+This project is open source.
 
 ---
 
-Développé avec ❤️ pour présenter les services d'une agence web professionnelle.
+Developed with ❤️ to showcase professional web agency services.
