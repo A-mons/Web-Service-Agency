@@ -63,4 +63,3 @@ This project is open source.
 
 ---
 
-Developed with ❤️ to showcase professional web agency services.
